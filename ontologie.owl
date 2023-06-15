@@ -1,0 +1,1194 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.example.org/onto.owl"
+         xmlns="http://www.example.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://www.example.org/onto.owl"/>
+
+<owl:ObjectProperty rdf:about="#contient">
+  <rdfs:domain rdf:resource="#Image"/>
+  <rdfs:range rdf:resource="#AnimalClass"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#possède">
+  <rdfs:domain rdf:resource="#AnimalClass"/>
+  <rdfs:range rdf:resource="#Caractéristique_Morphologique"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#AnimalClass">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Image">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Caractéristique_Morphologique">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Museau">
+  <rdfs:subClassOf rdf:resource="#Caractéristique_Morphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Patte">
+  <rdfs:subClassOf rdf:resource="#Caractéristique_Morphologique"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/039b2ae790.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/048d7b29e3.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/04e5d04320.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/08e665796d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/090234b385.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/093836b753.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/0e6a8744de.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/0f61069510.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/0f6b575750.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/116d9b7f88.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/1b890605d5.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/1ebb88dff2.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/1eda26b7f5.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/22ea4eea68.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/25ad0adb55.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/25e21b4f3e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/26f9a8f6e9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/28cf1633e6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/28f3e554e6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/2a868ca175.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/30f9c0dcd8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/36a8de3afb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/39d27b6e2b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/3a8b120f53.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/3dbd23430d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/4384ef0218.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/4ab1a3197a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/4cb42bf550.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/4e7dc3eb5f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/50de227a21.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/5687a6bcec.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/5db7b4c807.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/5dfb1c44b4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/5f0ccad194.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/6bee43b688.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/6d4f05236d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/6da5c2a437.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/86581a8ae9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/87a4b68284.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/8ab6a06ff9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/8cf44a21ba.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/8ded9df224.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/8e7bbfe4df.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/8fccd0fedd.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/90c8120829.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/98efff8440.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/9a34b276e2.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Bear/9f5fc65189.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/0572b4375b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/07a8e4b860.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/07c29966bd.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/08bbadef2b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/0a249855c4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/0df14cf243.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/0e6ba163a7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/10fa3b8bce.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/17becae335.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/19a58feb1a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/1d28265409.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/26df0b7b37.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/26f6dfabaf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/29c53bd78f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/29e4ace0ab.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/2bc02045e9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/30e2e884e7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/35ffde6343.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/3a09b5b8e6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/3ad86776f0.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/3c6c8999a5.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/3d9345d715.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/3ed0c52621.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/41c4be609a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/444ad8726f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/455ce6752d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/4c6fc22af0.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/4d66a20f05.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/4e8e2735c6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/52e90a9ad3.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/53e42929e8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/571cd0f113.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/57ef40346b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/592e4eb886.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/59bae2a9fb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/5c75295aec.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/5c774fc454.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/5cfdcbf4fb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/62da71f3d9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/63ca0da7d8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/6c2da64025.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/7d6a7c6b38.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/7e450d85f2.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/8a3c639a4a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/8cceb432b8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/8d33099f2f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/8fbc2539b4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Eagle/9bc9b116a7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/0173d47eb4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/05f378e4f8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/061b9b6a86.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/067a665d84.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/08b2897c5e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/126f86a601.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/12e90fc50b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/14d491115e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/14f969291c.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/155fc9d6de.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/15fbfec098.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/17d0e2aa94.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/23b8f82176.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/23decb1668.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/322f17ca6d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/32bdcc734b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/37d5f8a585.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/39a0749260.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/3efb5d524d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/3fb1860ef0.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/418afe07e6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/426d515dd7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/45b9312946.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/4a4d6859cb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/4b193011ee.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/4c0d7860e9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/51cdbdf5d2.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/5d920e8140.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/5da6075262.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/5f73d85da8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/5fc76b6be5.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/6f861b40ef.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/73c812bcd9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/7e0957c35d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/82dfa598a6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/8aae6285dd.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/8ad91a45e1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/8c6b4eabca.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/93cf7a70a9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/98b0883129.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/98b24c0c93.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/98efa710a8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/99fdcfd353.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/9a1d33c868.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/9b9a828ec3.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/9bfcb44990.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/9dbaf6ebdf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Goldfish/9eaf0dec03.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/059d5994c8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/09cf8f2ad4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/22bf875c82.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/24eb6eed1e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/27a3c78bc6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/2cd16a0d7c.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/2d8702ac8f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/2dd08455b8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/2f5766ad0d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/2f9a1fc195.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/35ce530ff7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/3a7fd9e840.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/3e427a9c70.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/3e9456b779.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/3f75058539.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/40bf39a0a9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/41bfce3808.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/46ad98ef1b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/51f520b707.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/52a8e86f2c.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/53adfd3576.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/57f81c8cbb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/58ae524129.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5a1304f5a7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5a2cf23a16.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5a38442caf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5d63b8fbe7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5ec833f7bf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/5f0fd84efc.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/63acf22913.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/64f23e50cb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/6a92c7f43d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/6e320ac2c1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/71e2aec38d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/72b89ad865.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/74d7ef8b1e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7a56d09260.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7c7fff84ca.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7ccde0b69f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7d771b2f33.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7fdd65fca4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/7fe110576c.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/8befc449ba.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/8fd3ac76ec.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/9bc7ba7d57.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/9d90a4e096.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/9dfab0d313.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Indigo_bunting/9e74328e36.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/0373ac21ad.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/04fd6d7c9c.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/09d576db9d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/09fc01c0d9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/16af889d9d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/25c629ddd6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/263cf87dc7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/26d8db660b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/27c805666d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/2b60bdb95d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/2d099bdddf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/2d892ed501.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/2ec8bf6933.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/2f9f1c6b5b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/30b3cbf355.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/31c14ee54f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/31c4086606.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/33f1f78558.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/351d5ce5a9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/379f82f7df.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/3b09487f61.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/3d71a2282a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/3eb0f9e9d7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/40f50c6990.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/41ffeeae88.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/42e0b4ff0a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/451b99d921.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/45e11254ff.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/463fc865bd.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/482cadb24e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/49ea170877.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/4bb40a8ec7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/4bbff77559.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/4f223a8fa6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/4faf5f9145.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/5a9a5bc5ad.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/5b3c8cbcb9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/65ca6f7484.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/69ddff92d4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/6d52c38d91.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/6e86c42370.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/7d65b05fd1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/80fb16054a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/90b9d5ee7d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/90e477eb48.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/95b8f062ce.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/9a53b6d1dc.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Shark/9a78375f5b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0387df115d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/06e320f74d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/07c803c409.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0dac8cc0bf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0db670ecbe.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0e238d32f4.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0e7ce42fd2.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0eb7c96ef9.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/0f43a8237e.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/11fcc2d565.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/15eebd79cb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/1a4ffd8af3.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/1e6019d07d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/1f73b47867.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/247beaf6bd.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/277c434994.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/27bcfb5fec.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/34bd22f913.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/352ef543bf.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/365b582c58.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/389b3092bc.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/432cfb1258.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/443e0ad4e7.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/47d8f719cb.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/49a0c85b3b.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/54d9910572.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/55c94eb8c6.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/55fd9f9b33.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/573b1b0393.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/580f62e0f1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/58eac1d1a1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/5f01c34451.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/6b1295488f.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/6d01eb24e1.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/6e61499ab8.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/6f8cb24654.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/702ef9b06a.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/778d849672.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/7b04dad848.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/7b1b59b5a5.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/7e89ab5ef0.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/843e6810e0.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/85d7b35232.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/98e5a29f90.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/996fb0a526.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/9aaeb59193.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/9c3db9d85d.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#animals/Wolf/9cdcad3179.jpg">
+  <rdf:type rdf:resource="#Image"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
